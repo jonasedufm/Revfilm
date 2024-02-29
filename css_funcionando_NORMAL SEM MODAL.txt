@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #303030;
+  }
+  .header {
+    font-family: OCR A Std, monospace;
+    background-color: rgb(35, 35, 168);
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 0 10px 1px #000;
+  }
+  .notice {
+    background-color: #404040;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: Roboto, tahoma, helvetica, sans-serif;
+    box-shadow: 0 1px 4px #000;
+    margin: 10px auto;
+    max-width: 800px; 
+  }
+  .notice h3{
+    background-color: #303030;
+    color: #ffffff;
+    margin-top: 0;
+    box-shadow: 0 1px 4px #000;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .film-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .film {
+    width: calc(33.33% - 16px); 
+    margin: 8px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .film img {
+    width: 90%; 
+    height: auto;
+  }
+  .film:hover {
+    transform: scale(1.08); 
+  }
+  .footer {
+    font-family: OCR A Std, monospace;
+    background-color: rgb(35, 35, 168);
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 0 10px 1px #000;
+  }
